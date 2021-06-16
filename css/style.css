@@ -1,0 +1,41 @@
+body{
+    margin: 20px;
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+}
+
+tr,
+td,
+table {
+  border: 1px solid black;
+  border-collapse: collapse;  
+}
+
+.table-1{
+    margin-left: 100px;
+}
+
+.table-2{
+    margin-left: 100px;
+}
+
+.button{
+    margin-left: 100px;
+}
+
+.button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px black;
+}
+
+.zebraStripe {
+    background-color: black;
+    color: white;
+  }
+
+  table tbody tr:first-child {
+    font-weight: bold;
+  }
